@@ -2,7 +2,6 @@
 
 import pytz
 import datetime
-import re
 from elasticsearch import Elasticsearch
 import time
 
