@@ -10,6 +10,7 @@ def delete_index(index):
     response = None
     try:
 	print "Deleteting index: %s" % index
+	#uncomment below to delete indices or else is sort of a dry run mode.
         #response = es.indices.delete(index=index)
     except:
         print "Error!"
